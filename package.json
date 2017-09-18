@@ -1,0 +1,29 @@
+{
+  "name": "antmp2wxmp",
+  "version": "0.0.1",
+  "description": "支付宝小程序转微信小程序命令行工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "a2w": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitee.com/swapteam/antmp2wxmp.git"
+  },
+  "keywords": [
+    "wxmp",
+    "wxapp",
+    "amp",
+    "antmp"
+  ],
+  "author": "SYJ",
+  "license": "ISC",
+  "dependencies": {
+    "parse5": "^3.0.2",
+    "parse5-wxmp": "^3.0.3",
+    "shelljs": "^0.7.8"
+  }
+}
